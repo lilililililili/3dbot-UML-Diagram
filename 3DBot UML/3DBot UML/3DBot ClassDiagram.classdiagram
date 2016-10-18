@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b46ae3ad-6fb2-420c-863a-e734cdecab30" name="3DBot ClassDiagram" linkedPackageId="4730955a-c2e7-441a-9575-adbb3594a642" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d0513aef-b09b-4f73-8f96-53bf68f3dfa0">
+      <profileInstance Id="d3573fc6-8a04-4fad-9326-9f6a1cb41b4a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ab0dc0dc-0b67-41f0-a18c-b18db14d0f67">
+      <profileInstance Id="b46df701-98d5-44fd-9158-f890c02d7853" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e20d01f2-d75b-4a34-a410-a31d302ccd63" name="GameManager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="12a40437-e6e1-4dfa-88ae-dce0e9d888d3" />
+        <ownedAttributesInternal>
+          <property Id="5395dce9-fefe-495f-8efa-187e9c6d7898" name="float  Close" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0ddc9153-f126-4781-82de-f51c7f09b766" />
+          </property>
+          <property Id="934f6866-7bed-43b2-b742-ec72a1d2d3fd" name="float  Delay" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a9e417a6-90e3-4005-9ea4-aacaf36968b0" />
+          </property>
+          <property Id="ab15fc6a-eed2-4c89-807f-2d0656636129" name="float  Open" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8f8992d5-4715-40de-be85-f1525c275e61" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="3ad5c171-ed4a-4fdb-ade8-6d657731018a" name="void  Start" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2684a9b6-50da-417a-81c3-b4d3e0df5c3f" />
+          </operation>
+          <operation Id="9e879959-90ee-4f55-9b26-30efc8940613" name="void  transition" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ba4c1d2b-87c7-4554-ae5c-ca631da488c3" />
+          </operation>
+          <operation Id="31c76306-8503-454b-bfc5-e6977bd05a96" name="void  changerSprite" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4f0a3492-cffc-4fb1-b56d-5179ba7f4197" />
+          </operation>
+          <operation Id="ce8d4bf0-6b0e-454f-bac1-6381cda02435" name="Ienumerator  internalChangerSprite" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2735277b-24a0-4fd1-b28b-9e26c53296aa" />
+          </operation>
+          <operation Id="c9eec24a-b537-4456-a6d3-5f36dff51e5a" name="Ienumerator  internalTransition" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f2a7ceed-cc0e-4b0a-8b93-5aaa90dbfc59" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a82a2200-c38a-4acc-aabb-5c501e4b1855" name="ResourceManager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8e477c41-1de3-4d74-b385-194565b0d90f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9ab8ff07-5fb5-4409-8cdd-6139f943f4fd" name="Lobby" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bf7e9e04-d45c-4e2c-ae80-471e2fae4b1e" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4b4a6500-edd2-4aeb-887d-49d61a424e4f" name="Customizing" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="465f75fb-e671-4b40-a5db-10d1222b47b2" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="59a99e59-5bc8-4117-8063-6bca3f9525ef" name="Storage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3e4ad0e6-3107-48f6-b9b3-de0b52d784f1" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d7059b50-3949-4904-bda3-7ca131550ed4" name="GameStart" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4f63eb93-55b8-49e2-8001-f843e022e302" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5a803ff-6742-428a-9069-6e5e6ca8473b" name="Ingame" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d206ee09-40bf-4ce9-8436-dd2d5a98a715" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="132969e2-be22-4a70-92cc-2f9c7d8e9cb7" name="Mission" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="62b56864-163f-457d-84d5-a604bde467f6" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65dd312e-3fcc-4c38-923a-612133dc2650" name="Opiotn" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e3d420c3-c034-472b-9ac3-0c493ed7ae9f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="81a095aa-253b-4415-988a-5e94eb58eedc" name="Transition" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f6f32fa1-aead-43ef-b88f-dbb246991f46" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0122285e-396f-4582-9b38-09f95f9c3c0b" name="GUIAgent" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="53054291-b079-4a1c-9575-72ad9d32f450" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="4730955a-c2e7-441a-9575-adbb3594a642" name="3DBot UML">
+    <elementDefinition Id="b1424d79-071e-4e17-ba7a-fe957a57031f" />
+  </package>
+</logicalClassDesignerModel>
